@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Animation system">
+      <UniqueIdentifier>{60909b11-9748-49ea-8c8c-7907a104212f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Windowing subsystem">
+      <UniqueIdentifier>{af5a53bf-3070-495e-b56f-54bc00d7134f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{6d9190d0-59e3-4a11-a7f5-04c6d3eeae52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Math">
+      <UniqueIdentifier>{cc82d09d-367a-40ed-83fd-79c017cea861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Meta">
+      <UniqueIdentifier>{4900e20b-119b-4d66-ad35-ddb13cda25ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Graphics subsystem">
+      <UniqueIdentifier>{858ffa06-9ebd-45ee-9be3-ee7c2b844ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Graphics subsystem\Model IO">
+      <UniqueIdentifier>{ce30ec24-13ed-4086-bb07-a42dfbc502c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Graphics subsystem\Shader compiler">
+      <UniqueIdentifier>{d9edc008-9710-4e9b-8edf-70a64ecd1557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Graphics subsystem\Renderer">
+      <UniqueIdentifier>{97afa62e-199c-4a84-8af2-43befcad8641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Resource management">
+      <UniqueIdentifier>{56389855-d4de-46ca-b17c-9f31fda3a5a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\anv_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\window\anim_window.cpp">
+      <Filter>Source Files\Animation system\Windowing subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_vma.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_surface.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_buffer.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_sampler.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_image.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_pipeline.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_material.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\core\anv_render_core_primitive.cpp">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\anv_common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anv.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\anv_anim.h">
+      <Filter>Source Files\Animation system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\anv_render.h">
+      <Filter>Source Files\Animation system\Graphics subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\window\anv_window.h">
+      <Filter>Source Files\Animation system\Windowing subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\core\anv_render_core.h">
+      <Filter>Source Files\Animation system\Graphics subsystem\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\math\anv_math.h">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\meta\anv_meta_concepts.h">
+      <Filter>Source Files\Utilities\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\meta\anv_meta_literals.h">
+      <Filter>Source Files\Utilities\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\meta\anv_meta_flags.h">
+      <Filter>Source Files\Utilities\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\meta\anv_meta_builder.h">
+      <Filter>Source Files\Utilities\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\resource\anv_resource_rc.h">
+      <Filter>Source Files\Utilities\Resource management</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\math\anv_math_camera.h">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\math\anv_math_linalg.h">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\math\anv_math_extent.h">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
